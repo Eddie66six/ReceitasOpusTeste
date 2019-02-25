@@ -1,0 +1,91 @@
+<ngx-spinner
+  bdOpacity = 0.9
+  bdColor = "#333"
+  size = "default"
+  color = "#fff"
+  type = "line-spin-clockwise-fade"
+  fullScreen = "true">
+  <p style="color: white" > Carregando... </p>
+</ngx-spinner>
+<!--modal-->
+<ng-template #content let-c="close" let-d="dismiss">
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Detalhes da receita</h4>
+      <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+        <form>
+            <div class="form-group">
+                <label>Nome: {{receitaDetalhes.nome}}</label>
+            </div>
+            <div class="form-group">
+                <label>Serve: {{receitaDetalhes.porcoes}} pessoa(s)</label>
+            </div>
+            <div class="form-group">
+                <label>Calorias: {{receitaDetalhes.calorias}}</label>
+            </div>
+            <div class="form-group" style="max-height: 200px;overflow:scroll;overflow-x:hidden;">
+                <label>{{receitaDetalhes.modoDePreparo}}</label>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label>Ingredientes</label>
+            </div>
+            <table class="table table-hover">
+              <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr *ngFor="let item of ingredientes | slice: (paginaAtualDetalhes-1) * qtdPorPaginaDetalhes : (paginaAtualDetalhes-1) * qtdPorPaginaDetalhes + qtdPorPaginaDetalhes">
+                <th scope="row">{{ item.idIngrediente }}</th>
+                <td><ngb-highlight [result]="item.nome"></ngb-highlight></td>
+              </tr>
+              </tbody>
+            </table>
+          
+            <div class="d-flex justify-content-between p-2">
+              <ngb-pagination
+                [collectionSize]="totalDetalhes" [(page)]="paginaAtualDetalhes" [pageSize]="qtdPorPaginaDetalhes">
+              </ngb-pagination>
+            </div>
+          </form>
+    </div>
+  </ng-template>
+<div class="centered-vw50">
+  <form>
+      <button class="btn btn-lg btn-outline-primary" routerLink=""><< Voltar</button>
+      <div class="form-group" style="text-align: center;">
+          <h2>Receitas</h2>
+      </div>
+      <hr>
+    <table class="table table-hover">
+      <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Porções</th>
+        <th scope="col">Calorias</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let item of receitas | slice: (paginaAtual-1) * qtdPorPagina : (paginaAtual-1) * qtdPorPagina + qtdPorPagina" (click)="abrirModalDetalhes(content, item)">
+        <th scope="row">{{ item.idReceita }}</th>
+        <td><ngb-highlight [result]="item.nome"></ngb-highlight></td>
+        <td><ngb-highlight [result]="item.porcoes | number"></ngb-highlight></td>
+        <td><ngb-highlight [result]="item.calorias | number"></ngb-highlight></td>
+      </tr>
+      </tbody>
+    </table>
+
+    <div class="d-flex justify-content-between p-2">
+      <ngb-pagination
+        [collectionSize]="total" [(page)]="paginaAtual" [pageSize]="qtdPorPagina">
+      </ngb-pagination>
+    </div>
+  </form>
+</div>

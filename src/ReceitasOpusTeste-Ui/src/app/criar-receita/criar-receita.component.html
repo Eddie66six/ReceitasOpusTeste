@@ -1,0 +1,59 @@
+<ngx-spinner
+  bdOpacity = 0.9
+  bdColor = "#333"
+  size = "default"
+  color = "#fff"
+  type = "line-spin-clockwise-fade"
+  fullScreen = "true">
+  <p style="color: white" > Carregando... </p>
+</ngx-spinner>
+<div class="centered-vw50">
+    <button class="btn btn-lg btn-outline-primary" routerLink=""><< Voltar</button>
+    <div class="form-group" style="text-align: center;">
+        <h2>Nova Receita</h2>
+    </div>
+    <hr>
+  <form [formGroup]="registerForm" (ngSubmit)="salvarReceita()">
+    <div class="form-group">
+      <label for="Nome">Nome</label>
+      <input type="text" class="form-control" formControlName="nome" placeholder="Nome" [(ngModel)]="receita.nome">
+      <div *ngIf="submitted && f.nome.errors" class="text-danger">
+        <div *ngIf="f.nome.errors.required">Campo Obrigatorio</div>
+        <div *ngIf="f.nome.errors.minlength">Minimo {{f.nome.errors.minlength.requiredLength}} caracteres</div>
+        <div *ngIf="f.nome.errors.maxLength">Maximo {{f.nome.errors.minlength.maxLength}} caracteres</div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="Porcoes">Porções</label>
+      <input type="number" class="form-control" formControlName="porcoes" placeholder="Porções" [(ngModel)]="receita.porcoes">
+      <div *ngIf="submitted && f.porcoes.errors" class="text-danger">
+        <div *ngIf="f.porcoes.errors.required">Campo Obrigatorio</div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="Calorias">Calorias</label>
+      <input type="number" class="form-control" formControlName="calorias" placeholder="Calorias" [(ngModel)]="receita.calorias">
+      <div *ngIf="submitted && f.calorias.errors" class="text-danger">
+        <div *ngIf="f.calorias.errors.required">Campo Obrigatorio</div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="Ingredientes">Ingredientes</label>
+      <ng-multiselect-dropdown formControlName="ingredientes" [placeholder]="'Ingredientes'" [data]="dropdownList" [(ngModel)]="selectedItems" [settings]="dropdownSettings">
+      </ng-multiselect-dropdown>
+      <div *ngIf="submitted && selectedItems.length == 0" class="text-danger">
+        <div *ngIf="selectedItems.length == 0">Campo Obrigatorio</div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="ModoDePreparo">Modo de preparo</label>
+      <textarea class="form-control" formControlName="modoDePreparo" rows="3" [(ngModel)]="receita.modoDePreparo"></textarea>
+      <div *ngIf="submitted && f.modoDePreparo.errors" class="text-danger">
+        <div *ngIf="f.modoDePreparo.errors.required">Campo Obrigatorio</div>
+        <div *ngIf="f.modoDePreparo.errors.minlength">Minimo {{f.modoDePreparo.errors.minlength.requiredLength}} caracteres</div>
+        <div *ngIf="f.modoDePreparo.errors.maxLength">Maximo {{f.modoDePreparo.errors.minlength.maxLength}} caracteres</div>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+  </form>
+</div>

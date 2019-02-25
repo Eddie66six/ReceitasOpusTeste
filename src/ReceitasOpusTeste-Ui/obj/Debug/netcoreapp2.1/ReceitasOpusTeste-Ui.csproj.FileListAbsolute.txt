@@ -1,0 +1,14 @@
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\obj\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.csprojAssemblyReference.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\obj\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.csproj.CoreCompileInputs.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\obj\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.RazorAssemblyInfo.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\obj\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.RazorAssemblyInfo.cs
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\obj\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.AssemblyInfoInputs.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\obj\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.AssemblyInfo.cs
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\bin\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.deps.json
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\bin\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.runtimeconfig.json
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\bin\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.runtimeconfig.dev.json
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\bin\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.dll
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\bin\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.pdb
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\obj\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.RazorTargetAssemblyInfo.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\obj\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.dll
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste-Ui\obj\Debug\netcoreapp2.1\ReceitasOpusTeste-Ui.pdb

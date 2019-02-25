@@ -1,0 +1,75 @@
+Você deve criar uma aplicação web que permita a criação e visualização de receitas culinárias.
+
+ 
+
+A aplicação terá front-end em Angular e back-end em C# ou Java. Utilize as bibliotecas que julgar melhor. Não é necessário utilizar banco de dados; armazene em memória no back-end (ou usando H2)!
+
+ 
+
+O site deve iniciar em uma tela "Home" que contenha dois botões:
+
+    - Criar uma receita
+
+    - Visualizar receitas
+
+   
+
+Cada receita deverá ter pelo menos 1 ingrediente. Estes ingredientes devem ser escolhidos de uma lista pré definida na base de dados.
+
+(Insira esta lista de ingredientes ao iniciar o programa!)
+
+ 
+
+Front-end:
+
+    Criar uma receita:
+
+        A criação de uma receita se trata de um form com os seguintes campos:
+
+            - Nome
+
+            - Porções (quantas pessoas a receita serve)
+
+            - Calorias
+
+            - Ingredientes (Uma lista dos ingredientes necessários)
+
+            - Modo de preparo (Um texto de como preparar a receita)
+
+    Visualizar receitas:
+
+        Esta tela deve listar as receitas inseridas. O usuário poderá acessar cada receita e visualizá-la em detalhes.
+
+               
+
+Back-end:
+
+    O back-end irá prover APIs e armazenamento dos dados em memória.
+
+    As APIs esperadas são:
+
+        - POST /receita (inicializa uma receita)
+
+     
+
+        - GET /receitas (devolve todas as receitas em memória)
+
+        - GET /receitas/{id} (devolve uma receita em memória por id)
+
+        - GET /receitas/{id}/ingredientes (devolve os ingredientes de uma receita)
+
+        - GET /receitas/-/ingredientes/{id} (devolve receitas que contenham o ingrediente definido por id)
+
+        - GET /receitas/{ingrediente} (devolves todos os ingredientes utilizados em receitas)
+
+       - GET /ingredientes (devolve os ingredientes disponíveis, ordenados alfabeticamente)
+
+ 
+
+Coloque este projeto no seu git / bitbucket junto a um README que defina como rodar o programa.
+
+Caso queira estender os requisitos pedidos, você pode implementar as seguintes melhorias:
+
+        - Suporte a Swagger                              
+
+        - Unit tests no back-end

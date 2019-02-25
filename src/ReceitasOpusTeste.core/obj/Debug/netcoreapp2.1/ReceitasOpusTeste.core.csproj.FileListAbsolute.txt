@@ -1,0 +1,11 @@
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.core\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.core.deps.json
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.core\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.core.runtimeconfig.json
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.core\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.core.runtimeconfig.dev.json
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.core\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.core.dll
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.core\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.core.pdb
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.core\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.core.csprojAssemblyReference.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.core\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.core.csproj.CoreCompileInputs.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.core\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.core.AssemblyInfoInputs.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.core\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.core.AssemblyInfo.cs
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.core\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.core.dll
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.core\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.core.pdb

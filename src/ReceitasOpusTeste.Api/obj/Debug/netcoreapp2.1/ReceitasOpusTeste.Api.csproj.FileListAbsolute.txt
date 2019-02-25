@@ -1,0 +1,17 @@
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.deps.json
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.runtimeconfig.json
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.runtimeconfig.dev.json
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.dll
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.pdb
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.core.dll
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\bin\Debug\netcoreapp2.1\ReceitasOpusTeste.core.pdb
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.csprojAssemblyReference.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.csproj.CoreCompileInputs.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.RazorAssemblyInfo.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.RazorAssemblyInfo.cs
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.AssemblyInfoInputs.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.AssemblyInfo.cs
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.csproj.CopyComplete
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.dll
+C:\Users\Eddie\Desktop\Projetos\Meu\ReceitasOpusTeste\src\ReceitasOpusTeste.Api\obj\Debug\netcoreapp2.1\ReceitasOpusTeste.Api.pdb
